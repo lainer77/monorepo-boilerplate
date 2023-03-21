@@ -102,3 +102,46 @@ dist
 
 # TernJS port file
 .tern-port
+
+# yarn v2 Zero-installs
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+nm-packages/**/.yarn/*
+
+# local hosting
+.certs
+
+*.terraform
+*.tfstate
+*.tfstate.*
+
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# testing
+coverage
+
+# production
+build
+dist
+dist.types
+
+# misc
+.DS_Store
+*.local
+
+# cypress
+cypress/screenshots
+cypress/videos
+cypress/log
+**/cypress/screenshots
+**/cypress/videos
+**/cypress/log
