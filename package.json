@@ -3,11 +3,12 @@
     "packageManager": "yarn@3.5.0",
     "private": true,
     "workspaces": [
-        "packages/*",
+        "products/*",
         "nm-packages/*"
     ],
     "scripts": {
-        "ma": "yarn workspaces my-app"
+        "ma": "yarn workspace my-app",
+        "n": "yarn workspace next-app"
     },
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^5.56.0",

@@ -13422,9 +13422,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"my-app@workspace:packages/my-app":
+"my-app@workspace:products/my-app":
   version: 0.0.0-use.local
-  resolution: "my-app@workspace:packages/my-app"
+  resolution: "my-app@workspace:products/my-app"
   dependencies:
     "@testing-library/jest-dom": ^5.16.5
     "@testing-library/react": ^13.4.0
