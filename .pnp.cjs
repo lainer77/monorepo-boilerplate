@@ -8432,6 +8432,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:27.5.2"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:5.14.6", {\
+          "packageLocation": "./.yarn/cache/@types-testing-library__jest-dom-npm-5.14.6-d8914e1c73-92f81cefea.zip/node_modules/@types/testing-library__jest-dom/",\
+          "packageDependencies": [\
+            ["@types/testing-library__jest-dom", "npm:5.14.6"],\
+            ["@types/jest", "npm:27.5.2"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@types/trusted-types", [\
@@ -19133,6 +19141,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:16.18.18"],\
             ["@types/react", "npm:18.0.28"],\
             ["@types/react-dom", "npm:18.0.11"],\
+            ["@types/testing-library__jest-dom", "npm:5.14.6"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:d6d3ca0dd7448798a5daffa9fbc0d207609d8e8281808c8f9ed3b7f6e72497f878b2a28346f4489ae74f83bd4bfb532f6b6b5fb215fa7b03abc959f2ede8ac32#npm:18.2.0"],\
             ["react-scripts", "virtual:d6d3ca0dd7448798a5daffa9fbc0d207609d8e8281808c8f9ed3b7f6e72497f878b2a28346f4489ae74f83bd4bfb532f6b6b5fb215fa7b03abc959f2ede8ac32#npm:5.0.1"],\
