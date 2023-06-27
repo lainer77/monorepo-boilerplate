@@ -20053,6 +20053,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./products/my-app/",\
           "packageDependencies": [\
             ["my-app", "workspace:products/my-app"],\
+            ["@common/utils", "workspace:packages/common-utils"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:d6d3ca0dd7448798a5daffa9fbc0d207609d8e8281808c8f9ed3b7f6e72497f878b2a28346f4489ae74f83bd4bfb532f6b6b5fb215fa7b03abc959f2ede8ac32#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:d6d3ca0dd7448798a5daffa9fbc0d207609d8e8281808c8f9ed3b7f6e72497f878b2a28346f4489ae74f83bd4bfb532f6b6b5fb215fa7b03abc959f2ede8ac32#npm:13.5.0"],\

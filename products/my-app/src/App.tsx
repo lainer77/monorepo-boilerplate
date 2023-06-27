@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import { testLog } from '@common/utils';
 
 function App() {
+    testLog({ name: 'test', age: 17, gender: 'male', memo: 'tetstetsets' });
     return (
         <div className="App">
             <header className="App-header">
